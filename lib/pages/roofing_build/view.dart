@@ -12,7 +12,7 @@ class RoofPage extends GetView<PageLogic> {
       body: Center(
         child: Obx(
           () => controller.koss.value
-              ? const CircularProgressIndicator(color: Colors.blue,)
+              ? const CircularProgressIndicator(color: Colors.deepPurpleAccent,)
               : buildError(),
         ),
       ),
