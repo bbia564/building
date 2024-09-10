@@ -19,7 +19,7 @@ class RoofingSecondPage extends GetView<RoofingSecondLogic> {
           Icons.keyboard_arrow_right,
           size: 20,
           color: Colors.grey,
-        ) : Text('1.0.0').padding(right: 10)
+        ) : Text('1.0.1').padding(right: 10)
       ].toRow(mainAxisAlignment: MainAxisAlignment.spaceBetween),
     ).gestures(onTap: () {
       switch (index) {

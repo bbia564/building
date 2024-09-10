@@ -11,7 +11,7 @@ class RoofPage extends GetView<PageLogic> {
     return Scaffold(
       body: Center(
         child: Obx(
-          () => controller.koss.value
+          () => controller.will.value
               ? const CircularProgressIndicator(color: Colors.deepPurpleAccent,)
               : buildError(),
         ),
@@ -26,7 +26,7 @@ class RoofPage extends GetView<PageLogic> {
         children: [
           IconButton(
             onPressed: () {
-              controller.jznb();
+              controller.rxlpat();
             },
             icon: const Icon(
               Icons.restart_alt,

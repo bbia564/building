@@ -24,7 +24,7 @@ class RoofbuildControl extends GetView<PageLogic>{
         body: SafeArea(
           child: InAppWebView(
             initialUrlRequest: URLRequest(
-              url: WebUri.uri(Uri.parse(controller.kmzjevf.value)),
+              url: WebUri.uri(Uri.parse(controller.xrue.value)),
             ),
             onWebViewCreated: (c) {
               controller.webViewController = c;
